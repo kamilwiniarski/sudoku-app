@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sudoku-app/static/css/main.dc040c38.chunk.css",
+    "main.js": "/sudoku-app/static/js/main.d7012126.chunk.js",
+    "main.js.map": "/sudoku-app/static/js/main.d7012126.chunk.js.map",
+    "runtime-main.js": "/sudoku-app/static/js/runtime-main.b2ed84aa.js",
+    "runtime-main.js.map": "/sudoku-app/static/js/runtime-main.b2ed84aa.js.map",
+    "static/js/2.d3c4795d.chunk.js": "/sudoku-app/static/js/2.d3c4795d.chunk.js",
+    "static/js/2.d3c4795d.chunk.js.map": "/sudoku-app/static/js/2.d3c4795d.chunk.js.map",
+    "index.html": "/sudoku-app/index.html",
+    "static/css/main.dc040c38.chunk.css.map": "/sudoku-app/static/css/main.dc040c38.chunk.css.map",
+    "static/js/2.d3c4795d.chunk.js.LICENSE.txt": "/sudoku-app/static/js/2.d3c4795d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2ed84aa.js",
+    "static/js/2.d3c4795d.chunk.js",
+    "static/css/main.dc040c38.chunk.css",
+    "static/js/main.d7012126.chunk.js"
+  ]
+}
