@@ -33,17 +33,17 @@ const SudokuGame = () => {
     onGetInitialBoardWithStatus();
   }, []);
 
-  const onValidate = (isCompleted?: boolean): void => {
-    const { sudokuBoard: updatedBoard, status } = validateBoard([
+  const onValidate = (): void => {
+    const { sudokuBoard: updatedBoard, status: updatedStatus } = validateBoard([
       ...sudokuBoard,
     ]);
     setSudokuBoard(updatedBoard);
     setSelected([null, null]);
-    if (status === Status.IN_PROGRESS && isCompleted) {
+    if (updatedStatus === Status.IN_PROGRESS && isSudokuComplete(updatedBoard)) {
         setStatus(Status.COMPLETED);
         return;
       }
-    setStatus(status);
+    setStatus(updatedStatus);
   };
 
   const isValidCellPicked = (): boolean => {
@@ -67,7 +67,7 @@ const SudokuGame = () => {
         isError: false,
       };
       if (isSudokuComplete(localBoard)) {
-        onValidate(true);
+        onValidate();
       } else {
         setSudokuBoard(localBoard);
         setStatus(Status.PLAYING);
