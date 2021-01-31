@@ -23,23 +23,29 @@ const mapBoardToValues = (sudokuBoard: SudokuBoard): RawSudokuBoard => {
   });
 };
 
+const findDuplicates = (row: RawSudokuBoardRow): number[] => {
+  const duplicates: number[] = [];
+  for (let i = 0; i < row.length - 1; i++) {
+    if (
+      duplicates.indexOf(row[i] as number) === -1 &&
+      row.indexOf(row[i], i + 1) !== -1
+    ) {
+      duplicates.push(row[i] as number);
+    }
+  }
+  return duplicates;
+};
+
 const checkForErrors = (sudokuBoard: SudokuBoard): SudokuBoard => {
   mapBoardToValues(sudokuBoard).forEach(
     (row: RawSudokuBoardRow, idx: number) => {
       const filteredRow = row.filter(
         (cell: RawSudokuBoardCell) => cell !== null
       ) as number[];
-      const results: number[] = [];
-      for (let i = 0; i < filteredRow.length - 1; i++) {
-        if (
-          results.indexOf(filteredRow[i]) === -1 &&
-          filteredRow.indexOf(filteredRow[i], i + 1) !== -1
-        ) {
-          results.push(filteredRow[i]);
-        }
-      }
-      if (results.length) {
-        results.forEach((result: number) => {
+      const duplicates: number[] = findDuplicates(filteredRow);
+
+      if (duplicates.length) {
+        duplicates.forEach((result: number) => {
           sudokuBoard[idx].forEach((cell: SudokuBoardCell) => {
             if (cell.value === result && !cell.isPrefilled) {
               cell.isError = true;

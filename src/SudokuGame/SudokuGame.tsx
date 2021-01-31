@@ -42,29 +42,33 @@ const SudokuGame = () => {
     setSelected([null, null]);
   };
 
+  const isValidCellPicked = (): boolean => {
+    return (
+      selected[0] !== null &&
+      selected[1] !== null &&
+      !sudokuBoard[selected[0]][selected[1]].isPrefilled
+    );
+  };
+
   const onPick = (
     e: React.MouseEvent<HTMLTableDataCellElement>,
     value: number
   ): void => {
     e.stopPropagation();
-    const sudokuCopy = [...sudokuBoard];
-    if (
-      selected[0] !== null &&
-      selected[1] !== null &&
-      !sudokuCopy[selected[0]][selected[1]].isPrefilled
-    ) {
-      sudokuCopy[selected[0]][selected[1]] = {
+    const localBoard = [...sudokuBoard];
+    if (isValidCellPicked()) {
+      localBoard[selected[0] as number][selected[1] as number] = {
         value,
         isPrefilled: false,
         isError: false,
       };
-      if (isSudokuComplete(sudokuCopy)) {
+      if (isSudokuComplete(localBoard)) {
         onValidate();
         if (status === Status.IN_PROGRESS) {
           setStatus(Status.COMPLETED);
         }
       } else {
-        setSudokuBoard(sudokuCopy);
+        setSudokuBoard(localBoard);
         setStatus(Status.PLAYING);
       }
       setSelected([null, null]);
