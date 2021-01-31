@@ -1,4 +1,4 @@
-import { Status } from "../status.enum";
+import { Status } from "../data/status.enum";
 import {
   RawSudokuBoard,
   RawSudokuBoardCell,
@@ -48,7 +48,7 @@ const createBoardFromInput = (input: RawSudokuBoard): SudokuBoard => {
 
 const isSolvable = (input: RawSudokuBoard): boolean => {
   const { status } = validateTable(createBoardFromInput(input));
-  return status === Status.IN_PROGRESS;
+  return status !== Status.ERRORS;
 };
 
 const isInputValid = (input: string): boolean => {

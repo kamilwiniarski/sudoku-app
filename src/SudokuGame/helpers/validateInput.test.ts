@@ -1,10 +1,13 @@
-import { rawBoard, rawCorruptedBoard, rawCompleteBoard } from "../data/testData";
+import {
+  rawBoard,
+  rawCorruptedBoard,
+  rawCompleteBoard,
+} from "../data/testData";
 import isInputValid from "./validateInput";
 
 const stringifiedBoard = JSON.stringify(rawBoard);
 const stringifiedCorructedBoard = JSON.stringify(rawCorruptedBoard);
-const stringifiedCompleteBoard= JSON.stringify(rawCompleteBoard);
-
+const stringifiedCompleteBoard = JSON.stringify(rawCompleteBoard);
 
 test("function called with valid sudoku board data should return true", () => {
   const isValid = isInputValid(stringifiedBoard);
@@ -36,11 +39,11 @@ test("function called with array of length other than 9 should return false", ()
 });
 
 test("function called with corrupted array should return false", () => {
-    const isValid = isInputValid(stringifiedCorructedBoard);
-    expect(isValid).toBe(false);
-  });
+  const isValid = isInputValid(stringifiedCorructedBoard);
+  expect(isValid).toBe(false);
+});
 
 test("function called with non-solvable board should return false", () => {
-const isValid = isInputValid(stringifiedCompleteBoard);
-expect(isValid).toBe(false);
+  const isValid = isInputValid(stringifiedCompleteBoard);
+  expect(isValid).toBe(false);
 });

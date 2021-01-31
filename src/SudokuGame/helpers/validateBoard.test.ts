@@ -2,10 +2,9 @@ import {
   boardWithSpecificErrors,
   completeBoard,
   completeBoardWitErrors,
-  rawBoard,
   rawCompleteBoard,
 } from "../data/testData";
-import { Status } from "../status.enum";
+import { Status } from "../data/status.enum";
 import validateBoard, {
   checkForErrors,
   mapBoardToValues,

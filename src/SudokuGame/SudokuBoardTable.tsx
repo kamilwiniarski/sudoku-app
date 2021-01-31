@@ -4,7 +4,7 @@ import {
   SudokuBoardCell,
   SudokuBoardRow,
 } from "./types/board.type";
-import { BoardCellPosition, BoardCellStyle } from "./types/cell.type";
+import { BoardCellPosition } from "./types/cell.type";
 import Picker from "./Picker";
 
 const Board = styled.table`
@@ -47,6 +47,12 @@ type SudokuBoardTableProps = {
   onSelect: (pos: BoardCellPosition) => void;
 };
 
+type BoardCellStyle = {
+  isSelected: boolean;
+  isError: boolean;
+  isPrefilled: boolean;
+};
+
 const SudokuBoardTable = ({
   sudokuBoardValues,
   selected,
@@ -56,6 +62,7 @@ const SudokuBoardTable = ({
   const isSelected = (pos1: BoardCellPosition, pos2: BoardCellPosition) => {
     return pos1[0] === pos2[0] && pos1[1] === pos2[1];
   };
+
   return (
     <Board>
       <tbody>

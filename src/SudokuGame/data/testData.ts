@@ -463,430 +463,430 @@ export const completeBoard: SudokuBoard = [
 ];
 
 export const completeBoardPrefilled: SudokuBoard = [
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-    [
-      {
-        value: 1,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 2,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 3,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 4,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 5,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 6,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 7,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 8,
-        isPrefilled: true,
-        isError: false,
-      },
-      {
-        value: 9,
-        isPrefilled: true,
-        isError: false,
-      },
-    ],
-  ];
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+  [
+    {
+      value: 1,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 2,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 3,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 4,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 5,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 6,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 7,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 8,
+      isPrefilled: true,
+      isError: false,
+    },
+    {
+      value: 9,
+      isPrefilled: true,
+      isError: false,
+    },
+  ],
+];
 
 export const incompleteBoard: SudokuBoard = [
   [

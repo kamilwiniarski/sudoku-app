@@ -1,4 +1,4 @@
-import { Status } from "../status.enum";
+import { Status } from "../data/status.enum";
 
 const getMessage = (status?: Status): string => {
   let message: string;

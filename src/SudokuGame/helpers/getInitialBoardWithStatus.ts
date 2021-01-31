@@ -1,4 +1,4 @@
-import { Status } from "../status.enum";
+import { Status } from "../data/status.enum";
 import {
   RawSudokuBoard,
   RawSudokuBoardCell,
@@ -66,9 +66,7 @@ const mapInitialBoard = (input: RawSudokuBoard): SudokuBoard => {
   });
 };
 
-const getInitialBoardWithStatus = (
-  input?: string
-): SudokuBoardWithStatus => {
+const getInitialBoardWithStatus = (input?: string): SudokuBoardWithStatus => {
   if (!input) {
     return {
       sudokuBoard: mapInitialBoard(defaultBoardValues),
@@ -88,10 +86,7 @@ const getInitialBoardWithStatus = (
   };
 };
 
-export {
-  getInitialBoardWithStatus,
-  mapInitialBoard
-}
+export { getInitialBoardWithStatus, mapInitialBoard };
 
 /* 
 [[3,null,null,null,null,null,8,7,2],[null,7,5,null,null,1,6,null,null],[null,null,null,null,null,2,null,null,3],[null,2,null,null,null,null,9,4,null],[null,null,4,3,null,6,null,null,1],[null,6,9,null,null,4,null,null,5],[null,null,null,9,null,null,null,null,null],[4,null,2,7,null,null,1,null,8],[null,null,null,4,null,null,null,2,6]]

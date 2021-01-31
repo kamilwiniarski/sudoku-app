@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import getMessage from "./helpers/getMessage";
-import { Status } from "./status.enum";
+import { Status } from "./data/status.enum";
 
 const Message = styled.p`
   flex: 0 0 100%;

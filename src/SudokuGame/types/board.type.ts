@@ -1,4 +1,4 @@
-import { Status } from "../status.enum";
+import { Status } from "../data/status.enum";
 
 export type RawSudokuBoardCell = number | null;
 export type RawSudokuBoardRow = RawSudokuBoardCell[];

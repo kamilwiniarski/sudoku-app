@@ -7,7 +7,7 @@ import { SudokuBoard } from "./types/board.type";
 import GameControlPanel from "./GameControlPanel";
 import SudokuBoardTable from "./SudokuBoardTable";
 import isSudokuComplete from "./helpers/checkCompletion";
-import { Status } from "./status.enum";
+import { Status } from "./data/status.enum";
 import StatusMessage from "./StatusMessage";
 
 const StyledGame = styled.main`

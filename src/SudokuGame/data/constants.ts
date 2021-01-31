@@ -1,4 +1,4 @@
-export const startingPoints = [
+export const startingPoints: number[][] = [
   [0, 0],
   [0, 3],
   [0, 6],
@@ -10,7 +10,7 @@ export const startingPoints = [
   [6, 6],
 ];
 
-export const pickerTable = [
+export const pickerTable: number[][] = [
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9],
